@@ -5,9 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "torch==2.5.0+cu124",
-    "torchaudio==2.5.0+cu124",
-    "torchvision==0.20.0+cu124",
+    "torch==2.5.0+cu121",
+    "torchaudio==2.5.0+cu121",
+    "torchvision==0.20.0+cu121",
 ]
 
 [tool.uv.sources]
@@ -17,5 +17,5 @@ torchaudio = { index = "pytorch-cu124" }
 
 [[tool.uv.index]]
 name = "pytorch-cu124"
-url = "https://download.pytorch.org/whl/cu124"
+url = "https://download.pytorch.org/whl/cu121"
 explicit = true
